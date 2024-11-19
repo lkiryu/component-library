@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: "Inter", sans-serif;
+    padding: 40px 0;
+    min-height: 100vh;
+    background-color: #111111;
+}
+
+.badge-container{
+    display: grid;
+    grid-template-columns: repeat(8, auto);
+    gap: 20px;
+}
+
+.banners-container{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.cards-container{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.testimonials-container{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.tooltips-container{
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    gap: 20px;
+}

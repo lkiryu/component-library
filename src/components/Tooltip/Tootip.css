@@ -1,0 +1,98 @@
+.tooltip {
+    display: flex;
+    width: 440px;
+    border-radius: 10px;
+    padding: 15px;
+    position: relative;
+    gap: 10px;
+}
+
+.tooltip .icon{
+    font-size: 24px
+}
+
+.tooltip-content{
+    width: 350px;
+}
+
+.tooltip::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -10px;
+    border-width: 10px;
+    border-style: solid;
+}
+
+.tooltip.bold{
+    background-color: #262626;
+    color: #C7C7C7;
+}
+
+.tooltip.bold::after{
+    border-color: #262626 transparent transparent transparent;
+}
+
+.tooltip.bold.blue{
+    background-color: #1E40AF;
+    color: #7EA6F2;
+}
+
+.tooltip.bold.blue::after{
+    border-color: #1E40AF transparent transparent transparent;
+}
+
+.tooltip.bold.pink{
+    background-color: #A9229B;
+    color: #F462E6;
+}
+
+.tooltip.bold.pink::after{
+    border-color: #A9229B transparent transparent transparent;
+}
+
+.tooltip.bold.green{
+    background-color: #47AA5D;
+    color: #C1FFCF;
+}
+
+.tooltip.bold.green::after{
+    border-color: #47AA5D transparent transparent transparent;
+}
+
+.tooltip.light{
+    background-color: #FFFFFF;
+    color: #6B7280;
+}
+
+.tooltip.light::after{
+    border-color: #FFFFFF transparent transparent transparent;
+}
+
+.tooltip.light.blue{
+    background-color: #E0E7FF;
+    color: #1C51B9;
+}
+
+.tooltip.light.blue::after{
+    border-color: #E0E7FF transparent transparent transparent;
+}
+
+.tooltip.light.pink{
+    background-color: #FFF3FC;
+    color: #C7369E;
+}
+
+.tooltip.light.pink::after{
+    border-color: #FFF3FC transparent transparent transparent;
+}
+
+.tooltip.light.green{
+    background-color: #E7FFF3;
+    color: #41A557;
+}
+
+.tooltip.light.green::after{
+    border-color: #E7FFF3 transparent transparent transparent;
+}

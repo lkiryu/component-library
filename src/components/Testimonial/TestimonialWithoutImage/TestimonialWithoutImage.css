@@ -1,0 +1,30 @@
+.testimonial-without-image{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 900px;
+    height: 400px;
+    padding: 100px;
+    gap: 40px;
+    background-color: #F9FAFB;
+    color: #111827;
+    background-image: url("../../../assets/Dot-Pattern.png");
+    background-repeat: no-repeat;
+    background-position: 0 100%;
+}
+
+.testimonial-without-image .testimonial-name-profession{
+    display: flex;
+    gap: 5px;
+    color: #2E59F3;
+}
+
+.testimonial-without-image .testimonial-name{
+    color: #111827;
+}
+
+.testimonial-without-image .testimonial-profession{
+    color: #6B7280;
+}
